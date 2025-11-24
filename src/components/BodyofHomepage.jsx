@@ -73,7 +73,7 @@ const BodyofHomepage = () => {
         </ul>
       </div>
       <CartInHomepage
-        img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/90/02/90/the-plantation.jpg?w=1200&h=700&s=1
+        img="https://www.ahstatic.com/photos/5451_ho_02_p_1024x768.jpg
       "
         link="/dreamhome/hotel"
         type="Hotel"
@@ -96,11 +96,11 @@ const BodyofHomepage = () => {
         img="https://archipro.com.au/images/s1/article/building/Form-Apartments-Port-Coogee-by-Stiebel-Eltron-.jpg/eyJlZGl0cyI6W3sidHlwZSI6InpwY2YiLCJvcHRpb25zIjp7ImJveFdpZHRoIjoxOTIwLCJib3hIZWlnaHQiOjE1NTgsImNvdmVyIjp0cnVlLCJ6b29tV2lkdGgiOjIzMTcsInNjcm9sbFBvc1giOjU2LCJzY3JvbGxQb3NZIjozMywiYmFja2dyb3VuZCI6InJnYigxMTUsMTQwLDE5NCkiLCJmaWx0ZXIiOjZ9fV0sInF1YWxpdHkiOjg3fQ==
       "
         link="/dreamhome/villa"
-        type="Hotel"
+        type="Villa"
         ppm="500"
         ppy="6000"
-        title="The Modern Hotel in Phnom Penh"
-        titleExpr="The best for freshal person."
+        title="The Modern Villa in Phnom Penh"
+        titleExpr="Very Comfortable life"
         bedroom="10"
         livingroom="2"
         bathroom="10"

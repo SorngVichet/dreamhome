@@ -83,7 +83,7 @@ const Navbar = () => {
             className=" flex  text-black  text-decoration-none cursor-pointer  border-b text-1xl gap-2 px-1 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
           >
             <i className="fa-regular fa-image"></i>
-            <span>Gallery</span>
+            <span>Categories</span>
           </NavLink>
           <NavLink
             to="/dreamhome/service"
@@ -99,13 +99,13 @@ const Navbar = () => {
             <i className="fa-solid fa-people-group"></i>
             <span>About</span>
           </NavLink>
-          <NavLink
-            to="/dreamhome/contact"
+          <a
+            href="#site-footer"
             className=" flex cursor-pointer  text-black  text-decoration-none  border-b text-1xl gap-2 px-1 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
           >
             <i className="fa-regular fa-address-card"></i>
             <span>Contact</span>
-          </NavLink>
+          </a>
         </div>
         <div
           ref={nav}
@@ -183,7 +183,7 @@ const Navbar = () => {
               className=" cursor-pointer flex  text-black  text-decoration-none w-full border-b text-2xl gap-2 ps-3 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
             >
               <i className="fa-regular fa-image"></i>
-              <span>Galleries</span>
+              <span>Categories</span>
             </NavLink>
             <NavLink
               to="/dreamhome/service"
@@ -199,13 +199,13 @@ const Navbar = () => {
               <i className="fa-solid fa-people-group"></i>
               <span>About</span>
             </NavLink>
-            <NavLink
-              to="/dreamhome/contact"
+            <a
+              href="#site-footer"
               className=" cursor-pointer  text-black  text-decoration-none flex w-full  border-b text-2xl gap-2 ps-3 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
             >
               <i className="fa-regular fa-address-card"></i>
               <span>Contact</span>
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

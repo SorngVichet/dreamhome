@@ -27,10 +27,11 @@ const Headbar = () => {
             />
             <div className=" flex flex-col ">
               <span className=" text-2xl font-bold text-orange-600">
-                Welcome to Dream Home
+                Welcome to <span className=" text-orange-400">Dream</span>{" "}
+                <span className=" text-blue-600">Home</span>
               </span>
               <span className=" text-orange-400 text-sm">
-                Sale or Rent a lots of king of home.
+                Sale or Rent a lots of kind of home.
               </span>
             </div>
           </div>
@@ -38,7 +39,7 @@ const Headbar = () => {
             <span className=" text-xl font-bold">
               Happy EveryDay with Your Dream House!
             </span>
-            <span>
+            <span className=" text-gray-500">
               We all thank you so much for using our service. We promice to try
               our best to make you easiest.
             </span>

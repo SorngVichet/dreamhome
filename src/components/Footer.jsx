@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-top">
             <div className="row">
               <div className="col-12  items-center flex flex-col col-md-6 col-lg-3 mb-4">
-                <h4>About Homee Renter</h4>
+                <h4>About Dream Home</h4>
                 <p>
                   This Web has a lots of kind of home for you rent or buy. You
                   will have luxury and modern lives with home you rent or buy,
@@ -123,8 +123,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom">
-            &copy; <span id="year"></span> The-Moon-Shopper. All rights
-            reserved.
+            &copy; <span id="year"></span> The-Dream-Home. All rights reserved.
           </div>
         </div>
       </footer>

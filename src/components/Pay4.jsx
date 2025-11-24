@@ -3,6 +3,7 @@ import mastercart from "../assets/Mastercard.webp";
 import aba from "../assets/aba.png";
 import aceleda from "../assets/aceleda.png";
 import Headbar from "./Headbar";
+import { NavLink } from "react-router-dom";
 const Pay4 = () => {
   return (
     <div
@@ -289,8 +290,12 @@ const Pay4 = () => {
             </div>
 
             <div className=" mt-2 border items-center w-full flex py-3  text-white bg-blue-400 justify-between  ps-3 pe-7 text-xl">
-              <div>---- or come to our Office -----</div>
-              <i class="fa-solid hover:text-red-500 cursor-pointer text-red-600 text-6xl fa-location-dot  border-s-2 ps-3"></i>
+              <div className=" w-full flex justify-center items-center">
+                -- or come to our Office --
+              </div>
+              <a href="https://maps.apple.com/maps?ll=11.58939918776577,104.9012145856522&q=11.58939918776577,104.9012145856522&t=m">
+                <i class="fa-solid text-decoration-none  hover:text-red-500 cursor-pointer text-red-600 text-6xl fa-location-dot  border-s-2 ps-3"></i>
+              </a>
             </div>
           </div>
           <div className=" w-full flex pb-1 justify-center">

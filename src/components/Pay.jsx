@@ -3,7 +3,21 @@ import mastercart from "../assets/Mastercard.webp";
 import aba from "../assets/aba.png";
 import aceleda from "../assets/aceleda.png";
 import Headbar from "./Headbar";
-const Pay3 = () => {
+
+const Pay = (props) => {
+  const {
+    id,
+    title,
+    img,
+    type,
+    a,
+    b,
+    ppm,
+    ppy,
+    owneremail,
+    ownertelegram,
+    ownerphone,
+  } = props;
   return (
     <div
       style={{ minHeight: "100vh" }}
@@ -18,17 +32,14 @@ const Pay3 = () => {
                 Your item
               </h3>
               <h6 className="  h-32 bg-amber-100 justify-center flex items-center">
-                The Modern Hotel in Phnom Penh
+                {title}
               </h6>
             </div>
             <div
               style={{ maxHeight: "300px" }}
               className=" border  overflow-hidden"
             >
-              <img
-                className=" w-full"
-                src="https://ohdidi.vn/uploads/static/HOMES/ha-noi/xavila/xavila_8.jpg"
-              />
+              <img className=" w-full" src={img} alt="photo" />
             </div>
           </div>
 
@@ -39,16 +50,16 @@ const Pay3 = () => {
                 <span className=" border-b bg-gray-200 font-semibold">
                   Type
                 </span>
-                <span className=" bg-gray-100">Apartment</span>
+                <span className=" bg-gray-100">{type}</span>
               </div>
               <div className=" flex flex-col">
                 <span className=" border-b bg-gray-100 font-semibold">
                   Size
                 </span>
                 <span className=" bg-gray-200">
-                  300{" "}
+                  {a}{" "}
                   <i className=" caret-neutral-50 text-sm fa-solid fa-xmark"></i>
-                  400 m<sup>2</sup>
+                  {b} m<sup>2</sup>
                 </span>
               </div>
             </div>
@@ -58,11 +69,11 @@ const Pay3 = () => {
             <div className=" gap-2 px-2 w-full grid grid-cols-2">
               <div className="  flex flex-col">
                 <span className=" border-b bg-gray-200 font-semibold">PPM</span>
-                <span className=" bg-gray-100">500$</span>
+                <span className=" bg-gray-100">{ppm}$</span>
               </div>
               <div className=" flex flex-col">
                 <span className=" border-b bg-gray-100 font-semibold">PPY</span>
-                <span className=" bg-gray-200">6000$</span>
+                <span className=" bg-gray-200">{ppy}$</span>
               </div>
             </div>
           </div>
@@ -309,15 +320,17 @@ const Pay3 = () => {
             </div>
             <div className=" py-0.5 bg-gray-300 w-full px-2  grid grid-cols-2">
               <div className=" border-e flex justify-start ">Email </div>
-              sorngvichet168@gmail.com
+              <div className=" text-xs flex  items-center justify-center  ">
+                {owneremail}
+              </div>
             </div>
             <div className=" py-0.5 bg-gray-200 px-2 w-full grid grid-cols-2">
               <div className=" border-e flex justify-start ">Phone </div>
-              <div>081981012</div>
+              <div>{ownerphone}</div>
             </div>
             <div className=" py-0.5 bg-gray-300 px-2 w-full grid grid-cols-2">
               <div className=" border-e flex justify-start ">Telegram </div>
-              <div>081981012</div>
+              <div>{ownertelegram}</div>
             </div>
           </div>
         </div>
@@ -325,4 +338,4 @@ const Pay3 = () => {
     </div>
   );
 };
-export default Pay3;
+export default Pay;

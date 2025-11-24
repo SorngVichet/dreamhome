@@ -99,7 +99,7 @@ const CartInHomepage = (props) => {
         </div>
       </div>
       <div
-        style={{ maxWidth: "500px" }}
+        style={{ maxWidth: "450px" }}
         className=" flex items-center flex-col gap-1"
       >
         <span> {props.moreExpr}</span>

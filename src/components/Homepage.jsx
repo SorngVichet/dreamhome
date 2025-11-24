@@ -94,8 +94,9 @@ const Homepage = () => {
             className=" px-2
          b1 text-blue-500   justify-start pb-2  flex flex-col items-center sm:justify-center  border    w-full h-full "
           >
-            <span className=" text-orange-400 lg:text-5xl md:text-4xl fw-bold text-3xl ">
-              Welcome To Dream Home Website
+            <span className="  text-red-500 lg:text-5xl md:text-4xl fw-bold text-3xl ">
+              Welcome To <span className=" text-orange-400">Dream</span>{" "}
+              <span className=" text-blue-600">Home</span> Website
             </span>
             <span className=" md:text-xl text-yellow-600">
               Modern & Luxury Home for Specail!
